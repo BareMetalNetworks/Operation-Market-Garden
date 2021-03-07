@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @plant.name %>
+</p>
+
+<p>
+  <strong>Variety:</strong>
+  <%= @plant.variety %>
+</p>
+
+<p>
+  <strong>Feeder:</strong>
+  <%= @plant.feeder %>
+</p>
+
+<p>
+  <strong>Days to maturity:</strong>
+  <%= @plant.days_to_maturity %>
+</p>
+
+<p>
+  <strong>Season:</strong>
+  <%= @plant.season %>
+</p>
+
+<p>
+  <strong>Family:</strong>
+  <%= @plant.family %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @plant.notes %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @plant.price %>
+</p>
+
+<p>
+  <strong>Unit:</strong>
+  <%= @plant.unit %>
+</p>
+
+<%= link_to 'Edit', edit_plant_path(@plant) %> |
+<%= link_to 'Back', plants_path %>

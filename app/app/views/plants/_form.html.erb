@@ -1,0 +1,62 @@
+<%= form_with(model: plant) do |form| %>
+  <% if plant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(plant.errors.count, "error") %> prohibited this plant from being saved:</h2>
+
+      <ul>
+        <% plant.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :variety %>
+    <%= form.text_field :variety %>
+  </div>
+
+  <div class="field">
+    <%= form.label :feeder %>
+    <%= form.text_field :feeder %>
+  </div>
+
+  <div class="field">
+    <%= form.label :days_to_maturity %>
+    <%= form.number_field :days_to_maturity %>
+  </div>
+
+  <div class="field">
+    <%= form.label :season %>
+    <%= form.text_field :season %>
+  </div>
+
+  <div class="field">
+    <%= form.label :family %>
+    <%= form.text_field :family %>
+  </div>
+
+  <div class="field">
+    <%= form.label :notes %>
+    <%= form.text_area :notes %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :unit %>
+    <%= form.text_field :unit %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
