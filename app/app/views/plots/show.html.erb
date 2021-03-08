@@ -15,5 +15,9 @@
   <%= @plot.long %>
 </p>
 
+<p>
+	<strong>Crop:</strong>
+	<%= @plot.plants.first.name %>
+</p>
 <%= link_to 'Edit', edit_plot_path(@plot) %> |
 <%= link_to 'Back', plots_path %>
