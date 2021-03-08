@@ -1,0 +1,32 @@
+<%= form_with(model: plot) do |form| %>
+  <% if plot.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(plot.errors.count, "error") %> prohibited this plot from being saved:</h2>
+
+      <ul>
+        <% plot.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :sector %>
+    <%= form.text_field :sector %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lat %>
+    <%= form.text_field :lat %>
+  </div>
+
+  <div class="field">
+    <%= form.label :long %>
+    <%= form.text_field :long %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

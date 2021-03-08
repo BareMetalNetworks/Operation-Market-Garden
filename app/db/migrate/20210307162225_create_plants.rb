@@ -12,7 +12,6 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :unit
       t.string :sow
       t.string :frost_tolerance
-      t.string :sow
       t.string :disease_resistance
       t.string :weed_resistance
       t.string :pest_resistence
@@ -35,7 +34,7 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :image_url
       t.string :height
       t.string :best_air_temperatures
-      
+
       t.timestamps
     end
   end

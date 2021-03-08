@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sector:</strong>
+  <%= @plot.sector %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @plot.lat %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @plot.long %>
+</p>
+
+<%= link_to 'Edit', edit_plot_path(@plot) %> |
+<%= link_to 'Back', plots_path %>
