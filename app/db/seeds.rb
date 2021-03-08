@@ -6,6 +6,34 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+
+plots = Plot.create([
+
+{
+sector: 'A1',
+lat: 'A',
+long: '1',
+},
+
+{
+sector: 'B1',
+lat: 'B',
+long: '1',
+},
+
+{
+sector: 'C1',
+lat: 'C',
+long: '1',
+},
+
+
+
+])
+
+
+
+
 plants = Plant.create([
 
 {
@@ -14,8 +42,6 @@ variety: "golden bantam",
 feeder: "heavy",
 days_to_maturity: 83,
 season: "summer"
-
-
 
 },
 
@@ -26,8 +52,6 @@ feeder: "heavy",
 days_to_maturity: 75,
 season: "summer"
 
-
-
 },
 
 {
@@ -37,8 +61,6 @@ feeder: "heavy",
 days_to_maturity: 100,
 season: "summer"
 
-
-
 },
 
 {
@@ -47,8 +69,6 @@ variety: "big dog",
 feeder: "light",
 days_to_maturity: 70,
 season: "summer"
-
-
 
 },
 
@@ -91,6 +111,24 @@ season: "summer"
 # },
 
 
+
+
+])
+
+
+plot_years = PlotYear.create([
+
+{
+	year: 2021,
+	plot: plots.first,
+	plant: plants.first,
+},
+
+{
+	year: 2021,
+	plot: plots.last,
+	plant: plants.last,
+},
 
 
 ])
