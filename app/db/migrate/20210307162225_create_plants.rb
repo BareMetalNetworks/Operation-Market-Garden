@@ -4,7 +4,7 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :variety
       t.string :feeder
-      t.integer :days_to_maturity
+      t.string :days_to_maturity
       t.string :season
       t.string :family
       t.text :notes
@@ -30,7 +30,7 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.text :harvesting
       t.text :storing
       t.string :botanical_name
-      t.string :origin
+    
       t.string :image_url
       t.string :height
       t.string :best_air_temperatures
@@ -39,11 +39,18 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :group
       t.string :seed_spacing
       t.string :row_spacing
-      t.string :planting_depth
+     
       t.string :days_to_germination
       t.string :germination_temperature
       t.text :advice
       t.text :cooking
+      t.string :average_seed_life
+      t.text :preparation
+      t.text :sowing
+     
+      t.text :storage
+      t.text :origin
+
 
       t.timestamps
     end
