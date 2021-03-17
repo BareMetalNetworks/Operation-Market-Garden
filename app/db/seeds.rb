@@ -72,6 +72,25 @@ season: "summer"
 
 },
 
+{
+name: "radish",
+variety: "purple plum",
+latin: "raphanus sativus"
+feeder: "light",
+days_to_maturity: 30,
+season: "summer",
+group: "greens and roots",
+description: "plump, round, deep purple Radish with firm white flesh. It has a mild, sweet flavor that holds all season without becoming pithy.",
+advice: "After the danger of hard frost has passed, direct sow Radish seed in moderately fertile, well-draining soil in full sunlight. If necessary, amend the soil lightly with organic fertilizer, compost and/or well rotted manure: Overly rich soil may result in too much top growth and not enough Radish. They prefer sunny, cool weather. Direct-sow 1⁄4 inches deep in rows about 8 inches apart, tamp down and water lightly. The key to growing crisp, mild Radishes is to keep them well-watered and thinned to 1 inch to 2 inches apart once they are 2 inches tall. Radish thinnings may be tossed into salads~tops and all. Harvest Radishes when they are small and tender for the mildest flavor and most crispy texture. Pull each Radish gently out of the soil. Direct-sow every 7 to 14 days for a steady supply throughout the summer.",
+cooking: "Red radishes are usually eaten raw, to preserve their color and crispness. But I love to use them in cooked dishes as well. The trick is adding them toward the end of the cooking process. I toss in a handful of sliced Radishes when I’m stir-frying vegetables. I also love the bright color they give to fried rice.",
+germination_temperature: '45-85F',
+days_to_germination: '3-7 days',
+seed_spacing: '1/2 - 3/4 inch',
+planting_depth: "1/4 inch",
+row_spacing: '8 inches',
+
+},
+
 # {
 # name: 
 # variety:

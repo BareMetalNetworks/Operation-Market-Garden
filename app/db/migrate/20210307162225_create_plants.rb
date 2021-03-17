@@ -34,6 +34,16 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :image_url
       t.string :height
       t.string :best_air_temperatures
+      t.integer :germination_percentage
+      t.string :latin
+      t.string :group
+      t.string :seed_spacing
+      t.string :row_spacing
+      t.string :planting_depth
+      t.string :days_to_germination
+      t.string :germination_temperature
+      t.text :advice
+      t.text :cooking
 
       t.timestamps
     end
