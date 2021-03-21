@@ -37,42 +37,6 @@ long: '1',
 plants = Plant.create([
 
 {
-name: "corn",
-variety: "golden bantam",
-feeder: "heavy",
-days_to_maturity: '83',
-season: "summer"
-
-},
-
-{
-name: "corn",
-variety: "bodacious",
-feeder: "heavy",
-days_to_maturity: '75',
-season: "summer"
-
-},
-
-{
-name: "tomatoes",
-variety: "early girl",
-feeder: "heavy",
-days_to_maturity: '100',
-season: "summer"
-
-},
-
-{
-name: "beans",
-variety: "big dog",
-feeder: "light",
-days_to_maturity: '70',
-season: "summer"
-
-},
-
-{
 name: "radish",
 variety: "purple plum",
 latin: "raphanus sativus",
